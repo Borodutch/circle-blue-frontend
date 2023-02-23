@@ -33,7 +33,7 @@ const { chains, provider } = configureChains(
 )
 
 const { connectors } = getDefaultWallets({
-  appName: 'PlaceWarp',
+  appName: 'CircleBlue',
   chains,
 })
 
@@ -75,7 +75,7 @@ export default function ({ children }: ChildrenProp) {
         coolMode
         chains={chains}
         theme={midnightTheme({
-          ...midnightTheme.accentColors.purple,
+          ...midnightTheme.accentColors.blue,
         })}
       >
         <Content>{children}</Content>
